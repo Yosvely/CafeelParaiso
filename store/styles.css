@@ -1,0 +1,60 @@
+/* Estilos para el carrito flotante */
+.cart-float-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.cart-float {
+    background-color: transparent;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.cart-icon {
+    position: relative;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+}
+
+#cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+/* Modal */
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+}
+/* Estilos para el botón de eliminar */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #c82333;
+}
